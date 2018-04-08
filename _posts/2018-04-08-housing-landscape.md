@@ -93,4 +93,4 @@ df %>%
   scale_fill_viridis(discrete=TRUE, direction = 1)
 ```
 
-![](housing-landscape_files/figure-markdown_github/bauart-1.png)
+![](bauart-1.png)
