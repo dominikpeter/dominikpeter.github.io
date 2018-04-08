@@ -10,13 +10,17 @@
 
 # Jekyll dev or build files
 _site/*
+_scripts/*
 _development_tool/*
 .sass-cache/*
 *.css.map
 *.scssc
+_data/*
 
 # Theme Gem files
 Gemfile.lock
 *.gem
 
 .Rproj.user
+
+.Rproj
