@@ -1,5 +1,11 @@
-Analysis of Swiss Housing Landscape
------------------------------------
+---
+layout: post
+title: Analysis of Swiss Housing Landscape
+feature-img: "assets/img/pexels/desk-messy.jpeg"
+thumbnail: "assets/img/thumbnails/desk-messy.jpeg"
+tags: [Test, Lorem]
+---
+
 
 ``` r
 rm(list = ls())
