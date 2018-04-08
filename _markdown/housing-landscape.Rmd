@@ -2,7 +2,9 @@
 title: "Swiss Housing"
 author: "Dominik Peter"
 date: "8 April 2018"
-output: html_document
+output:
+  md_document:
+    variant: markdown_github
 ---
 
 ```{r setup, include=FALSE}
