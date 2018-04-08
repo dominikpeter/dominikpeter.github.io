@@ -91,7 +91,7 @@ df %>% head()
 
 ## Plotting
 
-```{r bauart, warning=FALSE, error=FALSE}
+```{r bauart, warning=FALSE, error=FALSE, fig.path="../assets/plots/", fig.height=12, fig.width=12}
 df %>% 
   ggplot(aes(x=Bauperiode, y=Anzahl, fill=Gebäudekategorie)) +
   geom_bar(stat="identity") +
