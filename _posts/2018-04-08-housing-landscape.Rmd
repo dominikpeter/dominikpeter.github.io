@@ -2,8 +2,8 @@
 title: "Swiss Housing"
 author: "Dominik Peter"
 date: "8 April 2018"
-fig_width: 6 
-fig_height: 4
+fig_width: 12
+fig_height: 8
 output:
   md_document:
     variant: markdown_github
