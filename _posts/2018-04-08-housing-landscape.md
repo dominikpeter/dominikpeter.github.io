@@ -1,6 +1,8 @@
 Analysis of Swiss Housing Landscape
 -----------------------------------
 
+Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
+
 ``` r
 rm(list = ls())
 
@@ -18,6 +20,8 @@ library(magrittr)
 
 Functions for later use
 -----------------------
+
+Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
 ``` r
 clean_data <- function(df, year){
@@ -60,8 +64,10 @@ theme_c <- function(...) {
 }
 ```
 
-Getting the dat
----------------
+Getting the data
+----------------
+
+Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
 ``` r
 df <- read_tsv("../_data/housing-landscape/wohnungen_2013-2016.csv",
@@ -84,6 +90,8 @@ df %>% head()
 Plotting
 --------
 
+Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
+
 ``` r
 df %>% 
   ggplot(aes(x=Bauperiode, y=Anzahl, fill=Gebäudekategorie)) +
@@ -92,5 +100,4 @@ df %>%
   theme_c() +
   scale_fill_viridis(discrete=TRUE, direction = 1)
 ```
-
-![](../assets/plots/bauart-1.png)
+![]({{ "/assets/plots/bauart-1.png" | absolute_url }})
