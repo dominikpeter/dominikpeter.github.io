@@ -87,6 +87,10 @@ df <- read_tsv("../_data/housing-landscape/wohnungen_2013-2016.csv",
 df %>% head()
 
 ```
+
+
+## Plotting
+
 ```{r bauart, warning=FALSE, error=FALSE}
 df %>% 
   ggplot(aes(x=Bauperiode, y=Anzahl, fill=Gebäudekategorie)) +
@@ -97,9 +101,6 @@ df %>%
   
 
 ```
-
-
-
 
 
 
