@@ -92,5 +92,7 @@ df %>%
   theme_c() +
   scale_fill_viridis(discrete=TRUE, direction = 1)
 ```
+![]({{ "/_posts/bauart-1.png" | absolute_url }})
+![]({{ "/assets/bauart-1.png" | absolute_url }})
 
 ![](bauart-1.png)
