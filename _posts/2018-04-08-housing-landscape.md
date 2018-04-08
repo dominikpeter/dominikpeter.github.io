@@ -101,4 +101,5 @@ df %>%
   scale_fill_viridis(discrete=TRUE, direction = 1)
 ```
 
-![](({{ "/assets/plots/bauart-1.png" | absolute_url }}))
+![]({{ "/assets/plots/bauart-1.png" | absolute_url }})
+
