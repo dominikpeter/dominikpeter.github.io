@@ -5,21 +5,6 @@ Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus comple
 
 Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
-``` r
-rm(list = ls())
-
-library(maptools)
-library(broom)
-library(viridis)
-library(raster)
-library(rgdal)
-library(rgeos)
-library(tidyverse)
-library(readxl)
-library(readr)
-library(magrittr)
-```
-
 Functions for later use
 -----------------------
 
@@ -27,61 +12,12 @@ Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus comple
 
 Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
-``` r
-clean_data <- function(df, year){
-  df <- df %>% select(1:3,
-                      colnames(.) %>%
-                        endsWith(year) %>%
-                        which
-                      )
-  colnames(df)[1:3] <- c("Kanton / Bezirk / Gemeinde",
-                        "Gebäudekategorie",
-                        "Wohnungsfläche")
-  colnames(df)[endsWith(colnames(df), year)] <- colnames(df)[endsWith(colnames(df), year)] %>% 
-    str_sub(start=1, end=-5)
-  colnames(df) <- str_replace_all(colnames(df), "\\.", " ")
-  
-  regx <- "^(\\.\\.\\.\\.\\.)"
-  
-  df %>% gather(Bauperiode, Anzahl, -(1:3)) %>% 
-    filter(`Kanton / Bezirk / Gemeinde` %>% str_detect(regx)) %>% 
-    mutate(Anzahl   = as.numeric(Anzahl),
-           Gemeinde = `Kanton / Bezirk / Gemeinde`,
-           id       = Gemeinde %>% str_extract("\\d+") %>% as.numeric(),
-           Gemeinde = Gemeinde %>% str_replace("\\.+\\d+\\s", "")) %>% 
-    select(-`Kanton / Bezirk / Gemeinde`)
-}
-
-theme_c <- function(...) {
-  theme_minimal() +
-    theme(
-      text = element_text(color = "#283018"),
-      # panel.grid.minor = element_line(color = "#ebebe5", size = 0.2),
-      panel.grid.major = element_line(color = "#ebebe5", size = 0.2),
-      panel.grid.minor = element_blank(),
-      plot.background = element_rect(fill = "#f0eceb", color = NA), 
-      panel.background = element_rect(fill = "#f0eceb", color = NA), 
-      legend.background = element_rect(fill = "#f0eceb", color = NA),
-      panel.border = element_blank(),
-      ...
-    )
-}
-```
-
 Getting the data
 ----------------
 
 Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
 Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
-
-``` r
-df <- read_tsv("../_data/housing-landscape/wohnungen_2013-2016.csv",
-               skip=2, locale = locale(encoding = 'ISO-8859-1')) %>% 
-  clean_data("2016")
-
-df %>% head()
-```
 
     ## # A tibble: 6 x 6
     ##    Gebäudekategorie Wohnungsfläche Bauperiode Anzahl        Gemeinde    id
@@ -98,13 +34,4 @@ Plotting
 
 Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
-``` r
-df %>% 
-  ggplot(aes(x=Bauperiode, y=Anzahl, fill=Gebäudekategorie)) +
-  geom_bar(stat="identity") +
-  coord_flip() +
-  theme_c() +
-  scale_fill_viridis(discrete=TRUE, direction = 1)
-```
-
-![]({{ "/assets/plots/bauart-1.svg" | absolute_url }})
+![]({{ "/assets/plots/bauart-1.png" | absolute_url }})

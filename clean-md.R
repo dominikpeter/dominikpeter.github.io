@@ -7,7 +7,7 @@ path <- "_posts/2018-04-08-housing-landscape.md"
 
 file <- read_file(path)
 
-file_path <- str_extract(file, "\\(../assets/plots/\\w.+svg\\)")
+file_path <- str_extract(file, "\\(../assets/plots/\\w.+png\\)")
 file_name <- basename(str_extract(file_path, "/\\w.+\\w+"))
 
 
