@@ -82,6 +82,7 @@ theme_c <- function(...) {
       panel.background = element_rect(fill = "#f0eceb", color = NA), 
       legend.background = element_rect(fill = "#f0eceb", color = NA),
       panel.border = element_blank(),
+      legend.position = "bottom",
       ...
     )
 }
