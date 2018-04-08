@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 
-```{r init, error=FALSE, warning=FALSE}
+```{r init, error=FALSE, warning=FALSE, message=FALSE}
 rm(list = ls())
 
 library(maptools)
@@ -79,7 +79,7 @@ theme_c <- function(...) {
 ## Getting the dat
 
 
-```{r get, warning=FALSE, error=FALSE}
+```{r get, warning=FALSE, error=FALSE, message=FALSE}
 df <- read_tsv("../_data/housing-landscape/wohnungen_2013-2016.csv",
                skip=2, locale = locale(encoding = 'ISO-8859-1')) %>% 
   clean_data("2016")
