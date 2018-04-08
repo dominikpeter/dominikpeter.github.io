@@ -2,15 +2,20 @@
 title: "Swiss Housing"
 author: "Dominik Peter"
 date: "8 April 2018"
-fig_width: 18
-fig_height: 10
+fig_width: 50
+fig_height: 30
 output:
   md_document:
     variant: markdown_github
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE,
+                      dev = "svg",
+                      dpi=500,
+                      echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE)
 ```
 
 ## Analysis of Swiss Housing Landscape
