@@ -1,7 +1,7 @@
 # SITE CONFIGURATION
 baseurl: "/"
 url: "https://dominikpeter.github.io"
-title: "Dominik's Blog site's title"
+title: "Dominik's Blog"
 description: "A website with blog posts and pages" # used by search engines
 
 
@@ -16,13 +16,13 @@ theme_settings:
   # Header and footer text
   header_text: > #two or three lines to describe your site
      <p>Change header text in <code>_config.yml</code> <br> to update this feature.</p>
-  header_text_feature_image: assets/img/pexels/triangular.jpeg
+  header_text_feature_image: assets/img/pexels/mountain.jpg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: dominik.peter87@gmail.com
   behance:
   bitbucket:
   dribbble:
@@ -33,7 +33,7 @@ theme_settings:
   google_plus:
   instagram:
   keybase:
-  linkedin:  
+  linkedin:
   pinterest:
   reddit:
   soundcloud:
@@ -45,14 +45,14 @@ theme_settings:
   wordpress:
   youtube:
 
-  # Scripts / Features 
+  # Scripts / Features
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
   portfolio: true
   search: true
   tags: true
-  
+
   # Localization strings
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
@@ -70,7 +70,7 @@ theme_settings:
 
   # Post navigation
   post_navigation: true
-  
+
 
 # PAGINATION
 paginate: 5
