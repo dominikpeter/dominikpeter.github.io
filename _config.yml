@@ -8,14 +8,14 @@ description: "A website with blog posts and pages" # used by search engines
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Dominik Peter # blog's title
+  title: Dmpblog # blog's title
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Change header text in <code>_config.yml</code> <br> to update this feature.</p>
+     <p>Dominik's Blog<br>about data and hacker stats<code>python</code> and <code>R</code></p>
   header_text_feature_image: assets/img/pexels/mountain.jpg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
