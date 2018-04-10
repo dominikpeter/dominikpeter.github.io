@@ -1,4 +1,4 @@
 # Github Page of dominikpeter.github.io
 
 
-#### Feel free to copy and make a fortune out of it :-)
+#### Open Source. Do with it whatever you want. Copy, modify, claim it's your work or try to make a fortune out of it...
