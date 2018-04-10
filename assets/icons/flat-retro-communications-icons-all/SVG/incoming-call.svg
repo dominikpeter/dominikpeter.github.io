@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="incoming-call"
+   x="0px"
+   y="0px"
+   viewBox="0 0 1010 1010"
+   enable-background="new 0 0 1010 1010"
+   xml:space="preserve"
+   sodipodi:docname="incoming-call.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata14"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs12" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="3200"
+   inkscape:window-height="1675"
+   id="namedview10"
+   showgrid="false"
+   inkscape:zoom="0.93465346"
+   inkscape:cx="483.21381"
+   inkscape:cy="304.31778"
+   inkscape:window-x="-13"
+   inkscape:window-y="-13"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="incoming-call-incoming-call" />
+<g
+   id="incoming-call-incoming-call">
+	<circle
+   id="incoming-call-label"
+   fill="#55415B"
+   cx="505"
+   cy="505"
+   r="505"
+   style="fill:#1e3638;fill-opacity:1" />
+	
+<flowRoot
+   xml:space="preserve"
+   id="flowRoot4524"
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f7f7f7;fill-opacity:1;stroke:none"
+   transform="matrix(5.8423154,0,0,7.1432654,3469.6381,-2125.197)"><flowRegion
+     id="flowRegion4526"
+     style="fill:#f7f7f7;fill-opacity:1"><rect
+       id="rect4528"
+       width="383.02966"
+       height="341.30298"
+       x="-557.42584"
+       y="316.69492"
+       style="fill:#f7f7f7;fill-opacity:1" /></flowRegion><flowPara
+     id="flowPara4530"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI Bold';fill:#f7f7f7;fill-opacity:1">&lt;-</flowPara></flowRoot><flowRoot
+   xml:space="preserve"
+   id="flowRoot4532"
+   style="fill:black;fill-opacity:1;stroke:none;font-family:'Yu Gothic UI';font-style:normal;font-weight:bold;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Yu Gothic UI Bold';font-stretch:normal;font-variant:normal;"><flowRegion
+     id="flowRegion4534"
+     style="-inkscape-font-specification:'Yu Gothic UI Bold';font-family:'Yu Gothic UI';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;"><rect
+       id="rect4536"
+       width="6.4194918"
+       height="68.474579"
+       x="511.41949"
+       y="303.85593"
+       style="-inkscape-font-specification:'Yu Gothic UI Bold';font-family:'Yu Gothic UI';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;" /></flowRegion><flowPara
+     id="flowPara4538"></flowPara></flowRoot></g>
+</svg>
