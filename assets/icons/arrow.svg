@@ -44,13 +44,14 @@
    inkscape:snap-bbox="true" />
 <g
    id="incoming-call-incoming-call">
-	<circle
-   id="incoming-call-label"
-   fill="#55415B"
-   cx="505"
-   cy="505"
-   r="505"
-   style="fill:#1e3638;fill-opacity:1" />
+	<g
+   id="g4541"><circle
+     style="fill:#1e3638;fill-opacity:1"
+     r="505"
+     cy="505"
+     cx="505"
+     fill="#55415B"
+     id="incoming-call-label" /></g>
 	
 <flowRoot
    xml:space="preserve"
