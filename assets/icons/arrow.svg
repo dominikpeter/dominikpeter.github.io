@@ -34,50 +34,35 @@
    inkscape:window-height="1675"
    id="namedview10"
    showgrid="false"
-   inkscape:zoom="0.93465346"
-   inkscape:cx="483.21381"
-   inkscape:cy="304.31778"
+   inkscape:zoom="1.3841584"
+   inkscape:cx="505"
+   inkscape:cy="505"
    inkscape:window-x="-13"
    inkscape:window-y="-13"
    inkscape:window-maximized="1"
    inkscape:current-layer="incoming-call-incoming-call"
-   inkscape:snap-bbox="true" />
+   inkscape:snap-bbox="true"
+   inkscape:snap-bbox-midpoints="true" />
 <g
    id="incoming-call-incoming-call">
 	<g
-   id="g4541"><circle
+   id="g4541"
+   transform="translate(-23.841201,6.5021461)"><path
      style="fill:#1e3638;fill-opacity:1"
-     r="505"
-     cy="505"
-     cx="505"
-     fill="#55415B"
-     id="incoming-call-label" /></g>
+     d="M 1010,505 A 505,505 0 0 1 505,1010 505,505 0 0 1 0,505 505,505 0 0 1 505,0 505,505 0 0 1 1010,505 Z"
+     id="incoming-call-label"
+     inkscape:connector-curvature="0" /></g>
 	
-<flowRoot
-   xml:space="preserve"
-   id="flowRoot4524"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f7f7f7;fill-opacity:1;stroke:none"
-   transform="matrix(5.8423154,0,0,7.1432654,3469.6381,-2125.197)"><flowRegion
-     id="flowRegion4526"
-     style="fill:#f7f7f7;fill-opacity:1"><rect
-       id="rect4528"
-       width="383.02966"
-       height="341.30298"
-       x="-557.42584"
-       y="316.69492"
-       style="fill:#f7f7f7;fill-opacity:1" /></flowRegion><flowPara
-     id="flowPara4530"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI Bold';fill:#f7f7f7;fill-opacity:1">&lt;-</flowPara></flowRoot><flowRoot
-   xml:space="preserve"
+<g
+   aria-label="&lt;-"
+   transform="matrix(5.8423154,0,0,7.1432654,3414.5872,-2107.6374)"
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f7f7f7;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
+   id="flowRoot4524"><path
+     id="path4545"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI Bold';fill:#f7f7f7;fill-opacity:1;paint-order:markers fill stroke"
+     d="m -461.55186,371.07894 h -22.75001 v -7.125 h 22.75001 z m -39.79167,15.66667 -37.20834,-17.875 v -4.41667 l 37.20834,-19.41667 v 7.91667 l -27.20834,13.5 v 0.16667 l 27.20834,12.25 z"
+     inkscape:connector-curvature="0" /></g><g
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
    id="flowRoot4532"
-   style="fill:black;fill-opacity:1;stroke:none;font-family:'Yu Gothic UI';font-style:normal;font-weight:bold;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Yu Gothic UI Bold';font-stretch:normal;font-variant:normal;"><flowRegion
-     id="flowRegion4534"
-     style="-inkscape-font-specification:'Yu Gothic UI Bold';font-family:'Yu Gothic UI';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;"><rect
-       id="rect4536"
-       width="6.4194918"
-       height="68.474579"
-       x="511.41949"
-       y="303.85593"
-       style="-inkscape-font-specification:'Yu Gothic UI Bold';font-family:'Yu Gothic UI';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;" /></flowRegion><flowPara
-     id="flowPara4538"></flowPara></flowRoot></g>
+   transform="translate(-4.3347637,-10.114449)" /></g>
 </svg>
