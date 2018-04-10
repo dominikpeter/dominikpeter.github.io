@@ -1,21 +1,21 @@
 # SITE CONFIGURATION
 baseurl: "/"
 url: "https://dominikpeter.github.io"
-title: "Dominik's Blog"
+title: "dmp's blog"
 description: "A website with blog posts and pages" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Dmpblog # blog's title
+  title: dominik's blog # blog's title
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p><h2>Dominik's Blog<h2><br>...about data science, viz and hacker stats</p>
+     <p><h2>dominik's blog<h2><br>...about data science, viz and hacker stats</p>
   header_text_feature_image: assets/img/pexels/mountain.jpg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
