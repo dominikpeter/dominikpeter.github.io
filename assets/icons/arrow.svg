@@ -20,7 +20,7 @@
    inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
    id="metadata14"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs12" /><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
@@ -35,8 +35,8 @@
    id="namedview10"
    showgrid="false"
    inkscape:zoom="1.3841584"
-   inkscape:cx="505"
-   inkscape:cy="505"
+   inkscape:cx="437.44993"
+   inkscape:cy="707.28899"
    inkscape:window-x="-13"
    inkscape:window-y="-13"
    inkscape:window-maximized="1"
@@ -47,7 +47,7 @@
    id="incoming-call-incoming-call">
 	<g
    id="g4541"
-   transform="translate(-23.841201,6.5021461)"><path
+   transform="matrix(0.98927039,0,0,0.99070099,7.2246077,2.8898427)"><path
      style="fill:#1e3638;fill-opacity:1"
      d="M 1010,505 A 505,505 0 0 1 505,1010 505,505 0 0 1 0,505 505,505 0 0 1 505,0 505,505 0 0 1 1010,505 Z"
      id="incoming-call-label"
