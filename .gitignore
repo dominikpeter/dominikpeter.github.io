@@ -24,3 +24,8 @@ Gemfile.lock
 .Rproj.user
 
 .Rproj
+
+
+_posts/*.Rmd
+
+
