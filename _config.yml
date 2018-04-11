@@ -15,8 +15,8 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-      dominik's blog
-      <p>disvovering the world with data</p>
+      <h4>dominik's blog</h4>
+      <p>discovering the world with <code>data</code>...</p>
   header_text_feature_image: assets/img/pexels/streetlights2.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
