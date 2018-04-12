@@ -17,7 +17,7 @@ theme_settings:
   header_text: > #two or three lines to describe your site
       <h4>Dominik's Blog</h4>
       <p>Exploring the World Through <code>Data</code>...</p>
-  header_text_feature_image: assets/img/pexels/action-architecture-blur-373972-very-low.jpg
+  header_text_feature_image: assets/img/pexels/action-architecture-blur-373972-lower.jpg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
