@@ -17,12 +17,12 @@ theme_settings:
   header_text: > #two or three lines to describe your site
       <h4>Dominik's Blog</h4>
       <p>Exploring the World Through <code>Data</code>...</p>
-  header_text_feature_image: assets/img/pexels/action-architecture-blur-373972-lower.jpg
+  header_text_feature_image: assets/img/pexels/action-architecture-blur-373972-very-low.jpg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
-  rss: true  # Make sure you created a feed.xml with feed.xml layout
+  rss: false  # Make sure you created a feed.xml with feed.xml layout
   email_address: dominik.peter87@gmail.com
   behance:
   bitbucket:
@@ -50,7 +50,7 @@ theme_settings:
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
-  portfolio: true
+  portfolio: false
   search: true
   tags: true
 
@@ -81,7 +81,7 @@ paginate_path: "blog/page:num"
 # PORTFOLIO
 collections:
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:name
 
 
