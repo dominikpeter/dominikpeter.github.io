@@ -15,7 +15,7 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-      <h3><code>D</code>ominik's Blog</h3>
+      <h3>d<code>0</code>min1k's blog</h3>
       Exploring the World Through <code>Data</code>...
   header_text_feature_image: assets/img/pexels/architecture-blur-bright-440313-lower.jpg
   footer_text: >
