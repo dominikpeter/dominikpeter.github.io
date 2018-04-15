@@ -127,7 +127,7 @@ ggplot() +
   geom_line(data=fit1 %>% tidy, aes(x=x, y=y), color="#fae596", size=.9) +
   theme_c() +
   labs(title = "FItted Density Curve of Eruptions",
-       subtitle  = "CI generated with boostrap resampling R = 10000")  +
+       subtitle  = "CI generated with bootstrap resampling R = 10000")  +
   scale_y_continuous(breaks = seq(0,0.5,by=0.1),
                      labels = seq(0,0.5,by=0.1) %>% percent()) +
   scale_x_continuous(breaks = seq(1,6,by=1)) +
