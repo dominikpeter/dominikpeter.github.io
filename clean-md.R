@@ -14,8 +14,7 @@ clean_files <- function(path){
     if (!is.na(i)){
       file_name <- basename(str_extract(i, "/\\w.+\\w+"))
       new_file_path <- paste0('{{ "/assets/plots/',file_name,'" | absolute_url }}')
-      file <- str_replace(file, file_path, new_file_path)
-      
+      file <- str_replace(file, i, new_file_path)
       if (!is.na(file)){
         file %>% write_file(path)
       }

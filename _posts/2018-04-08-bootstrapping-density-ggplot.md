@@ -7,11 +7,11 @@ Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus comple
 rm(list = ls())
 
 library(ggplot2)
+library(scales)
 library(dplyr)
 library(magrittr)
 library(broom)
 library(purrr)
-
 
 set.seed(2323)
 ```
@@ -23,18 +23,14 @@ Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus comple
 
 ``` r
 theme_c <- function(...) {
-  require(scales)
   theme_minimal() +
     theme(
-      text = element_text(family = "Source Sans Pro", color = "#173e43", size=11),
-      # panel.grid.minor = element_line(color = "#ebebe5", size = 0.2),
-      panel.grid.major = element_line(color = "#e3e3e3", size = 1.05),
-      # panel.grid.major = element_line(color = "#173e43", size = 0.5),
+      text = element_text(family = "Source Sans Pro", color = "#173e43", size=12),
+      panel.grid.major = element_line(color = "#e3e3e3", size = .5),
       panel.grid.minor = element_blank(),
       plot.background = element_rect(fill = "#f6f1ed", color = NA), 
       panel.background = element_rect(fill = "#f6f1ed", color = NA), 
       legend.background = element_rect(fill = "#f6f1ed", color = NA),
-      # panel.border = element_rect(color = "#173e43", size = 0.5, fill = NA),
       panel.border = element_blank(),
       legend.position = "bottom",
       ...
@@ -125,8 +121,8 @@ ggplot() +
   geom_jitter(data = bs_samples_5000, aes(x=x, y=y), alpha=0.1, color="#173e43") +
   geom_ribbon(data = bs_samples,
               aes(x=x,y=y,ymin = min, ymax = max),
-              alpha=0.05, color="#dddfd4") +
-  geom_line(data=fit1 %>% tidy, aes(x=x, y=y), color="#3fb0ac", size=1) +
+              alpha=0.2, color="#dddfd4") +
+  geom_line(data=fit1 %>% tidy, aes(x=x, y=y), color="#fae596", size=1) +
   theme_c() +
   labs(title = "FItted Density Curve of Eruptions",
        subtitle  = "CI generated with boostrap resampling R = 10000")  +
