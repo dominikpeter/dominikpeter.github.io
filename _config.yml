@@ -17,11 +17,7 @@ theme_settings:
   header_text: > #two or three lines to describe your site
       <h3><code>D</code>ominik's Blog</h3>
       Exploring the World Through <code>Data</code>...
-<<<<<<< HEAD
-  header_text_feature_image: assets/img/pexel/altitude-amazing-calm-552784-lower.jpg
-=======
-  header_text_feature_image: assets/img/pexels/asphalt-blurred-clouds-566862-cropped.jpg
->>>>>>> ccc63536d7ebde125b858eb1282c88a409a3e60a
+  header_text_feature_image: assets/img/pexel/asphalt-blurred-clouds-566862-cropped.jpg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
