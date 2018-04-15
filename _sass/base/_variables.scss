@@ -50,7 +50,9 @@ $border-radius: 4px !default;
 
 
 // base16 Material Theme
-$base00: #263238 !default;  // Default Background
+//$base00: #263238 !default;  // Default Background
+
+$base00: #173e43 !default;  // Default Background
 $base01: #2E3C43 !default;  // Lighter Background (Used for status bars)
 $base02: #314549 !default;  // Selection Background
 $base03: #546E7A !default;  // Comments, Invisibles, Line Highlighting
