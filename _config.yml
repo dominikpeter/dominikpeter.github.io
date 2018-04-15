@@ -17,7 +17,7 @@ theme_settings:
   header_text: > #two or three lines to describe your site
       <h3><code>D</code>ominik's Blog</h3>
       Exploring the World Through <code>Data</code>...
-  header_text_feature_image: assets/img/pexels/action-asphalt-back-light-315938-crop.jpg
+  header_text_feature_image: assets/img/pexel/altitude-amazing-calm-552784-lower.jpg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
