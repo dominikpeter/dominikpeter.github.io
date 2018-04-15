@@ -123,8 +123,8 @@ ggplot() +
   #             alpha=0.5, color="#dddfd4") +
   geom_point(data = bs_samples_5000,
               aes(x=x, y=y),
-              alpha=0.1, color="#173e43") +
-  geom_line(data=fit1 %>% tidy, aes(x=x, y=y), color="#fae596", size=1) +
+              alpha=0.2, color="#173e43") +
+  geom_line(data=fit1 %>% tidy, aes(x=x, y=y), color="#fae596", size=.9) +
   theme_c() +
   labs(title = "FItted Density Curve of Eruptions",
        subtitle  = "CI generated with boostrap resampling R = 10000")  +
