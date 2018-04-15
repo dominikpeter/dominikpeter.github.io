@@ -20,15 +20,18 @@ Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus comple
 
 ``` r
 theme_c <- function(...) {
+  require(scales)
   theme_minimal() +
     theme(
-      text = element_text(family = "Source Sans Pro", color = "#173e43"),
+      text = element_text(family = "Source Sans Pro", color = "#173e43", size=12),
       # panel.grid.minor = element_line(color = "#ebebe5", size = 0.2),
-      panel.grid.major = element_line(color = "#F5F5F5", size = 0.5),
+      panel.grid.major = element_line(color = "#e3e3e3", size = 1.05),
+      # panel.grid.major = element_line(color = "#173e43", size = 0.5),
       panel.grid.minor = element_blank(),
       plot.background = element_rect(fill = "#f6f1ed", color = NA), 
       panel.background = element_rect(fill = "#f6f1ed", color = NA), 
       legend.background = element_rect(fill = "#f6f1ed", color = NA),
+      # panel.border = element_rect(color = "#173e43", size = 0.5, fill = NA),
       panel.border = element_blank(),
       legend.position = "bottom",
       ...
@@ -73,7 +76,12 @@ r %>%
               fill = "grey70", alpha=0.5) +
   geom_line() +
   theme_c() +
-  labs(title = "Density Plot")
+  labs(title = "Density Plot",
+       subtitle  = "")  +
+  scale_y_continuous(breaks = seq(0,0.5,by=0.1),
+                     labels = seq(0,0.5,by=0.1) %>% percent()) +
+  ylab("Density\n") +
+  xlab("\nEruptions")
 ```
 
 ![]({{ "/assets/plots/get-1.png" | absolute_url }})
