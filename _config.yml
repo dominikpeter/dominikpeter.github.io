@@ -1,14 +1,14 @@
 # SITE CONFIGURATION
 baseurl: "/"
 url: "https://dominikpeter.github.io"
-title: "dmp's blog"
-description: "A website with blog posts and pages" # used by search engines
+title: "d0min1k's"
+description: "A website about data exploration with Python and R" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: dominik's blog # blog's title
+  title: d0min1k's blog # blog's title
   avatar: assets/icons/arrow.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash

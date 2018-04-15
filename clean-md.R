@@ -15,5 +15,7 @@ clean_files <- function(path){
 
 
 files <- dir("_posts/", full.names = TRUE)
+files <- files[endsWith(files, ".md")]
+
 
 walk(files, clean_files)
