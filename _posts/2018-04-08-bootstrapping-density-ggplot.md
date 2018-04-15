@@ -137,4 +137,4 @@ ggplot() +
   xlab("\nEruptions")
 ```
 
-![](../assets/plots/get-1.png)
+![]({{ "/assets/plots/get-1.png" | absolute_url }})
