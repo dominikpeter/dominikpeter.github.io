@@ -8,14 +8,14 @@ description: "A website about data exploration with Python and R" # used by sear
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: d<code>0</code>min1k's blog # blog's title
+  title: d<code>0</code>min<code>1</code>k's blog # blog's title
   avatar: assets/icons/arrow.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-      <h3>d<code>0</code>min1k's blog</h3>
+      <h3>d<code>0</code>min<code>1</code>k's blog</h3>
       Exploring the World Through <code>Data</code>...
   header_text_feature_image: assets/img/pexels/architecture-blur-bright-440313-lower.jpg
   footer_text: >
