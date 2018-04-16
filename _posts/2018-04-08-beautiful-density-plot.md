@@ -84,7 +84,7 @@ faithful %>%
   xlab("\nEruptions")
 ```
 
-![]({{ "/assets/plots/distribution-1.png" | absolute_url }})
+![]({{ "/assets/plots/distribution-eruptions-1.png" | absolute_url }})
 
 Bootstrapping
 -------------
