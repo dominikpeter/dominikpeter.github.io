@@ -84,7 +84,7 @@ faithful %>%
   xlab("\nEruptions")
 ```
 
-![]({{ "/assets/plots/distribution-eruptions-1.png" | absolute_url }})
+![](../assets/plots/distribution-eruptions-1.svg)
 
 Bootstrapping
 -------------
@@ -145,4 +145,4 @@ ggplot() +
   xlab("\nEruptions")
 ```
 
-![]({{ "/assets/plots/eruptions-density-1.png" | absolute_url }})
+![](../assets/plots/eruptions-density-1.svg)
