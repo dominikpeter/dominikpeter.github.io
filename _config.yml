@@ -8,7 +8,7 @@ description: "A website about data exploration with Python and R" # used by sear
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: d<code>0</code>min<code>1</code>k's blog # blog's title
+  title: <code>d0min1k</code>
   avatar: assets/icons/arrow.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
