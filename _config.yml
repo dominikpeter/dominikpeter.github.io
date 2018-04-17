@@ -1,7 +1,7 @@
 # SITE CONFIGURATION
 baseurl: "/"
 url: "https://dominikpeter.github.io"
-title: "d0min1k's"
+title: "d0min1k"
 description: "A website about data exploration with Python and R" # used by search engines
 
 
