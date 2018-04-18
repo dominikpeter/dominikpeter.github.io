@@ -40,13 +40,13 @@
    inkscape:window-height="1675"
    id="namedview10"
    showgrid="false"
-   inkscape:zoom="1.3841584"
-   inkscape:cx="508.97354"
-   inkscape:cy="13.72675"
+   inkscape:zoom="0.97874779"
+   inkscape:cx="405.68929"
+   inkscape:cy="298.09311"
    inkscape:window-x="-13"
    inkscape:window-y="-13"
    inkscape:window-maximized="1"
-   inkscape:current-layer="g4541"
+   inkscape:current-layer="incoming-call-incoming-call"
    inkscape:snap-bbox="true"
    inkscape:snap-bbox-midpoints="true" />
 <g
@@ -54,7 +54,7 @@
 	<g
    id="g4541"
    transform="matrix(0.98927039,0,0,0.99070099,7.2246077,2.8898427)"><path
-     style="fill:#173e43;fill-opacity:1"
+     style="fill:#0b132b;fill-opacity:1"
      d="M -1.14554e-5,505.00001 A 505,505 0 0 1 505.00002,1.1446226e-5 505,505 0 0 1 1010,505.00001 505,505 0 0 1 505.00002,1010 505,505 0 0 1 -1.14554e-5,505.00001 Z"
      id="incoming-call-label"
      inkscape:connector-curvature="0" /></g>
@@ -62,13 +62,13 @@
 <g
    aria-label="&lt;-"
    transform="matrix(-5.8423154,0,0,-7.1432654,-2428.3342,3119.682)"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f7f7f7;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#5bc0be;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
    id="flowRoot4524"><path
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI Bold';fill:#f7f7f7;fill-opacity:1;stroke-width:1.20238066;paint-order:markers fill stroke"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI Bold';fill:#5bc0be;fill-opacity:1;stroke-width:1.20238066;paint-order:markers fill stroke"
      d="m -462.23652,371.07894 h -32.89013 v -7.125 h 32.89013 z"
      id="path819"
      inkscape:connector-curvature="0" /><path
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI Bold';fill:#f7f7f7;fill-opacity:1;paint-order:markers fill stroke"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI Bold';fill:#5bc0be;fill-opacity:1;paint-order:markers fill stroke"
      d="m -501.68586,386.74561 -37.20834,-17.875 v -4.41667 l 37.20834,-19.41667 v 7.91667 l -27.20834,13.5 v 0.16667 l 27.20834,12.25 z"
      id="path4545"
      inkscape:connector-curvature="0" /></g><g
