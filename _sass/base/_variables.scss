@@ -1,7 +1,7 @@
 // Typography
 $font-family-main: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $font-family-headings: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$font-size: 1.25em;
+$font-size: 1.1em;
 
 
 // Padding
@@ -15,9 +15,9 @@ $background-color: #fff;
 $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
 // Typography colours
-$text-color: #383838;
+$text-color: #1B1B1E;
 $link-color: #173e43; // #1ABC9C;
-$selection-color: #D4D4D4; // visible when highlighting text
+$selection-color: #58A4B0; // visible when highlighting text
 $blockquote-color: #EEF7FA; // $background-color;
 
 //Search color
@@ -52,7 +52,7 @@ $border-radius: 4px !default;
 // base16 Material Theme
 //$base00: #263238 !default;  // Default Background
 
-$base00: #173e43 !default;  // Default Background
+$base00: #373F51 !default;  // Default Background
 $base01: #2E3C43 !default;  // Lighter Background (Used for status bars)
 $base02: #314549 !default;  // Selection Background
 $base03: #546E7A !default;  // Comments, Invisibles, Line Highlighting
