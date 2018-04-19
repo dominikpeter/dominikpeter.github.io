@@ -43,7 +43,7 @@ faithful %>%
   xlab("\nEruptions")
 ```
 
-![]({{ "/assets/plots/distribution-eruptions-1.png" | absolute_url }})
+![](../assets/plots/distribution-eruptions-1.png)
 
 Set up some functions
 ---------------------
@@ -90,7 +90,10 @@ Plotting
 --------
 
 ``` r
-colorsb <- c("#1C2541", "#3A506B", "#5BC0BE", "#6FFFE9")
+colorsb <- c("#80B5B4",
+             "#3A506B",
+             "#1C2541",
+             "#0B132B")
 
 
 ggplot() +
@@ -99,7 +102,7 @@ ggplot() +
              # color="#173e43"
              ) +
   geom_line(data=fit1 %>% tidy, aes(x=x, y=y),
-            color="#77E094", size=1) +
+            color="#C9FFF6", size=1) +
   theme_blog() +
   labs(title = "Fitted Density Curve of Eruptions",
        subtitle  = "CI generated with bootstrap resampling R = 10000")  +
@@ -111,4 +114,4 @@ ggplot() +
   xlab("\nEruptions")
 ```
 
-![]({{ "/assets/plots/eruptions-density-1.png" | absolute_url }})
+![](../assets/plots/eruptions-density-1.png)
