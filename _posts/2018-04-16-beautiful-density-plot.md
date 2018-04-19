@@ -43,7 +43,7 @@ faithful %>%
   xlab("\nEruptions")
 ```
 
-![](../assets/plots/distribution-eruptions-1.png)
+![]({{ "/assets/plots/distribution-eruptions-1.png" | absolute_url }})
 
 Set up some functions
 ---------------------
@@ -114,4 +114,4 @@ ggplot() +
   xlab("\nEruptions")
 ```
 
-![](../assets/plots/eruptions-density-1.png)
+![]({{ "/assets/plots/eruptions-density-1.png" | absolute_url }})
