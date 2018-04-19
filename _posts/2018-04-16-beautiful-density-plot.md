@@ -99,7 +99,7 @@ ggplot() +
              # color="#173e43"
              ) +
   geom_line(data=fit1 %>% tidy, aes(x=x, y=y),
-            color="#77E094", size=1.1, alpha=0.9) +
+            color="#77E094", size=1) +
   theme_blog() +
   labs(title = "Fitted Density Curve of Eruptions",
        subtitle  = "CI generated with bootstrap resampling R = 10000")  +
