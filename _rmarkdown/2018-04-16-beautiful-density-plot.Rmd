@@ -1,9 +1,29 @@
-Bootstrapping Density Function and plotting with ggplot
--------------------------------------------------------
+---
+title: "Bootstrap Density"
+author: "Dominik Peter"
+date: "8 April 2018"
+fig_width: 80
+fig_height: 30
+output:
+  md_document:
+    variant: markdown_github
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      dev = "png",
+                      dpi = 1200,
+                      message = FALSE,
+                      warning = FALSE)
+```
+
+## Bootstrapping Density Function and plotting with ggplot
 
 Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
-``` r
+
+```{r init, error=FALSE, warning=FALSE, message=FALSE}
 rm(list = ls())
 
 library(tidyverse)
@@ -14,10 +34,12 @@ library(broom)
 set.seed(2323)
 ```
 
-Functions for later use
------------------------
+## Functions for later use
 
-``` r
+
+
+
+```{r get-data, warning=FALSE, error=FALSE, message=FALSE, fig.path="../assets/plots/"}
 faithful <- faithful %>% as_tibble()
 
 eruptions <- faithful$eruptions
@@ -25,14 +47,10 @@ eruptions <- faithful$eruptions
 faithful %>% head()
 ```
 
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["eruptions"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["waiting"],"name":[2],"type":["dbl"],"align":["right"]}],"data":[{"1":"3.600","2":"79"},{"1":"1.800","2":"54"},{"1":"3.333","2":"74"},{"1":"2.283","2":"62"},{"1":"4.533","2":"85"},{"1":"2.883","2":"55"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
 
-Plotting the Distribution
--------------------------
+## Plotting the Distribution
 
-``` r
+```{r distribution-eruptions, warning=FALSE, error=FALSE, message=FALSE, fig.path="../assets/plots/"}
 faithful %>% 
   ggplot(aes(x = eruptions)) +
   geom_histogram(fill = "#3A506B", color="#e3e3e3") +
@@ -44,12 +62,10 @@ faithful %>%
   xlab("\nEruptions")
 ```
 
-![](../assets/plots/distribution-eruptions-1.png)
+## Set up some functions
 
-Set up some functions
----------------------
 
-``` r
+```{r some-functions, warning=FALSE, error=FALSE, message=FALSE, fig.path="../assets/plots/"}
 get_bs_sample <- function(x){
   x[sample(length(x), replace = TRUE)]
 }
@@ -60,12 +76,12 @@ density_from_bs <- function(x, min, max){
 }
 ```
 
-Bootstrapping
--------------
+## Bootstrapping
 
 Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
-``` r
+
+```{r bootstrap, warning=FALSE, error=FALSE, message=FALSE, fig.path="../assets/plots/"}
 #init
 fit1 <- density(eruptions)
 
@@ -87,10 +103,12 @@ bs_samples_samples <- bs_samples %>%
   sample_n(size = 5000, replace = FALSE)
 ```
 
-Plotting
---------
 
-``` r
+
+## Plotting
+
+
+```{r eruptions-density, warning=FALSE, error=FALSE, message=FALSE, fig.path="../assets/plots/"}
 ggplot() +
   geom_point(data = bs_samples_samples,
              aes(x=x, y=y, color=dist), alpha=0.6
@@ -109,4 +127,5 @@ ggplot() +
   xlab("\nEruptions")
 ```
 
-![](../assets/plots/eruptions-density-1.png)
+
+
