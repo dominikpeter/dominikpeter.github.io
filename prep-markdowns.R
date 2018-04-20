@@ -47,8 +47,6 @@ prep_rmds <- function(file, output, all=FALSE){
     render(file,
            output_file = basename(output),
            output_dir = dirname(output))
-    
-    clean_file(output)
   }
 }
 
@@ -66,6 +64,9 @@ walk(rmds, ~prep_rmds(file = .,
 
 
 
+mds <- dir(output_folder, full.names = TRUE)
+
+walk(mds, clean_file)
 
 
 
