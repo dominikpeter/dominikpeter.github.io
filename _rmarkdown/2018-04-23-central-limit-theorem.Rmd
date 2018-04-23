@@ -9,7 +9,7 @@ output:
     variant: markdown_github
 ---
 
-```{r setup, include=FALSE}
+```{r setup-clt, include=FALSE}
 options(Encoding="UTF-8")
 knitr::opts_chunk$set(echo = TRUE,
                       dev = "png",
@@ -25,7 +25,7 @@ Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus comple
 
 Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
-```{r init, error=FALSE, warning=FALSE, message=FALSE}
+```{r init-clt, error=FALSE, warning=FALSE, message=FALSE}
 rm(list=ls())
 
 library(rsenal)
@@ -64,7 +64,7 @@ rep_get_sample_fun <- function(x, .f, n_reps, size){
 Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
 
-```{r prep-data, warning=FALSE, error=FALSE, message=FALSE}
+```{r prep-data-clt, warning=FALSE, error=FALSE, message=FALSE}
 x <- faithful$eruptions
 
 sample_size <- c(seq(0, 200, 20), seq(0, 10000, 2000), 50000) %>% unique()
@@ -85,7 +85,7 @@ df_splitted <- df %>%
 
 Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
-```{r clt, warning=FALSE, error=FALSE, fig.path="../assets/plots/"}
+```{r plot-clt, warning=FALSE, error=FALSE, fig.path="../assets/plots/"}
 img <- image_graph(width = 800, height = 600, res = 120)
 
 out <- map(df_splitted, function(data){
@@ -105,7 +105,6 @@ out <- map(df_splitted, function(data){
     ylab("Density") +
     xlab("Sample Mean")
   print(p)
-  invisible()
 })
 dev.off()
 animation <- image_animate(img, fps = 1, loop = 1)

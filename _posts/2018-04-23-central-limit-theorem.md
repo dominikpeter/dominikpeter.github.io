@@ -41,4 +41,4 @@ Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus comple
     ## 15    gif   800    600       sRGB  TRUE        0   72x72
     ## 16    gif   800    600       sRGB  TRUE        0   72x72
 
-![]({{ "/assets/plots/clt-1.gif" | absolute_url }})
+![]({{ "/assets/plots/plot-clt-1.gif" | absolute_url }})
