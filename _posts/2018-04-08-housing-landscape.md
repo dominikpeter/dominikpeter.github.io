@@ -20,7 +20,7 @@ Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus comple
 Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
     ## # A tibble: 6 x 6
-    ##    Gebäudekategorie `Wohnungsfl?che` Bauperiode Anzahl        Gemeinde
+    ##    Gebaudekategorie `Wohnungsfl?che` Bauperiode Anzahl        Gemeinde
     ##               <chr>            <chr>      <chr>  <dbl>           <chr>
     ## 1 Einfamilienhäuser           <30 m2  Vor 1919       0 Aeugst am Albis
     ## 2 Einfamilienhäuser         30-49 m2  Vor 1919       0 Aeugst am Albis

@@ -7,7 +7,7 @@ Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus comple
 rm(list = ls())
 
 library(tidyverse)
-library(Rsenal) #set of useful functions
+library(rsenal) #set of useful functions
 library(viridis)
 library(broom)
 

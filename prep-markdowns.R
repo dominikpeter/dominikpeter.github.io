@@ -1,7 +1,7 @@
 
 rm(list = ls())
 
-library(Rsenal)
+library(rsenal)
 library(readr)
 library(stringr)
 library(purrr)
@@ -13,7 +13,7 @@ library(rmarkdown)
 
 clean_file <- function(path){
   file <- read_file(path)
-  file_path <- str_extract_all(file, "\\(../assets/plots/\\w.+png\\)", simplify = TRUE)
+  file_path <- str_extract_all(file, "\\(../assets/plots/\\w.+[png|gif]\\)", simplify = TRUE)
   for (i in file_path){
     if (!is.na(i)){
       file_name <- basename(str_extract(i, "/\\w.+\\w+"))
@@ -46,7 +46,8 @@ prep_rmds <- function(file, output, all=FALSE){
   } else {
     render(file,
            output_file = basename(output),
-           output_dir = dirname(output))
+           output_dir = dirname(output),
+           encoding="UTF-8")
   }
 }
 
@@ -55,8 +56,6 @@ input_folder <- "_rmarkdown"
 output_folder <- "_posts"
 
 rmds <- dir(input_folder, full.names = TRUE)
-
-
 
 walk(rmds, ~prep_rmds(file = .,
                       output = output_folder,

@@ -7,7 +7,7 @@ Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus comple
 rm(list = ls())
 
 library(tidyverse)
-library(Rsenal)
+library(rsenal)
 
 set.seed(2323)
 ```
