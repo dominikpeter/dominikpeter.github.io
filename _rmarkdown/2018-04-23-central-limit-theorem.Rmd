@@ -74,7 +74,7 @@ df <- map_df(sample_size, ~rep_get_sample_fun(x, mean, n_reps=., size=100)) %>%
   gather(value = mean) %>%
   na.omit() %>% 
   mutate(reps = key %>% as.integer()) %>% 
-  select(-key)
+  dplyr::select(-key)
 
 df_splitted <- df %>%
   split(.$reps)
