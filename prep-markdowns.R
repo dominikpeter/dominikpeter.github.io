@@ -10,6 +10,10 @@ library(magrittr)
 library(rmarkdown)
 
 
+delete_line <- function(s){
+  str_replace_all(s, "\\.+#__delete__\\.+#__delete__", "")
+}
+
 
 clean_file <- function(path){
   file <- read_file(path)
@@ -19,6 +23,7 @@ clean_file <- function(path){
       file_name <- basename(str_extract(i, "/\\w.+\\w+"))
       new_file_path <- paste0('{{ "/assets/plots/',file_name,'" | absolute_url }}')
       file <- str_replace(file, i, new_file_path)
+      file <- delete_line(file)
       if (!is.na(file)){
         file %>% write_file(path)
       }

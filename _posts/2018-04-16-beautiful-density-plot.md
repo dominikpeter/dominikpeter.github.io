@@ -5,12 +5,9 @@ Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus comple
 
 ``` r
 rm(list = ls())
+
 library(tidyverse)
-<<<<<<< HEAD
 library(rsenal) #set of useful functions
-=======
-library(rsenal) #set of useful functions created by myself
->>>>>>> 390028bb2a4e2f544652641d76e08bbb48ff8023
 library(viridis)
 library(broom)
 
@@ -22,7 +19,9 @@ Functions for later use
 
 ``` r
 faithful <- faithful %>% as_tibble()
+
 eruptions <- faithful$eruptions
+
 faithful %>% head()
 ```
 

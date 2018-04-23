@@ -111,6 +111,3 @@ animation <- image_animate(img, fps = 1, loop = 1)
 print(animation)
 ```
 
-
-
-
