@@ -15,7 +15,7 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-      <h4>Exploring the World Through Data</h4>
+      <h2>Exploring the World Through Data</h2>
   header_text_feature_image: assets/img/pexels/architecture-blur-bright-440313-lower.jpg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
