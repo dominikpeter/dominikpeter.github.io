@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Beautiful Density Plot
-feature-img: "assets/plots/img/background_density.jpg"
-thumbnail: "assets/plots/img/background_density.jpg"
+feature-img: "assets/img/plots/background_density.jpg"
+thumbnail: "assets/img/plots/background_density.jpg"
 tags: [density, ggplot2, R, Bootstrap]
 ---
 

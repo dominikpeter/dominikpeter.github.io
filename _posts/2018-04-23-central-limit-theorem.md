@@ -2,7 +2,6 @@
 layout: post
 title: Central Limit Theorom
 feature-img: "assets/img/plots/background_histogram.jpg"
-thumbnail: "assets/img/plots/background_histogram.jpg"
 tags: [Histogram, ggplot2, R, Cenral Limit Theorom]
 ---
 
