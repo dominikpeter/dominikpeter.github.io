@@ -14,8 +14,8 @@ theme_settings:
   gravatar: # Email MD5 hash
 
   # Header and footer text
-  header_text: > #two or three lines to describe your site
-      <h3>Exploring the World Through Data</h3>
+  header_text: > #two or three lines to describe your sit
+       <p>Exploring the World Through Data</p>
   header_text_feature_image: assets/img/pexels/architecture-blur-bright-440313-lower.jpg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
