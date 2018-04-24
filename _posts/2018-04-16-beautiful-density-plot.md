@@ -2,8 +2,8 @@
 layout: post
 title: Beautiful Density Plot
 feature-img: "assets/plots/eruptions-density-1.png"
-thumbnail: "assets/plots/eruptions-density-1.pngg"
-tags: [density, Lorem]
+thumbnail: "assets/plots/eruptions-density-1.png"
+tags: [density, ggplot2, R, Bootstrap]
 ---
 
 Bootstrapping Density Function and plotting with ggplot
