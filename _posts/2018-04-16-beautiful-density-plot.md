@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Feature images
-feature-img: "assets/img/pexels/desk-messy.jpeg"
-thumbnail: "assets/img/thumbnails/desk-messy.jpeg"
+title: Beautiful Density Plot
+feature-img: "assets/plots/eruptions-density-1.png"
+thumbnail: "assets/plots/eruptions-density-1.pngg"
 tags: [density, Lorem]
 ---
 
