@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Beautiful Density Plot
-feature-img: "assets/plots/eruptions-density-1.png"
-thumbnail: "assets/plots/eruptions-density-1.png"
+feature-img: "assets/plots/img/background_density.jpg"
+thumbnail: "assets/plots/img/background_density.jpg"
 tags: [density, ggplot2, R, Bootstrap]
 ---
 
@@ -41,7 +41,7 @@ Plotting the Distribution
 -------------------------
 
 ``` r
-faithful %>% 
+faithful %>%
   ggplot(aes(x = eruptions)) +
   geom_histogram(fill = "#3A506B", color="#e3e3e3") +
   theme_blog() +
@@ -83,15 +83,15 @@ max_ <- max(fit1$x)
 bs_samples <-  map(1:10000,
                    ~density_from_bs(eruptions,
                                     min_, max_)) %>%
-  map_df(~tidy(.)) %>% 
-  group_by(x) %>% 
+  map_df(~tidy(.)) %>%
+  group_by(x) %>%
   mutate(mean  = mean(y),
          y99   = quantile(y, 0.99),
          y01   = quantile(y, 0.01),
-         dist  = abs(y - mean)) %>% 
+         dist  = abs(y - mean)) %>%
   ungroup()
 
-bs_samples_samples <- bs_samples %>% 
+bs_samples_samples <- bs_samples %>%
   sample_n(size = 5000, replace = FALSE)
 ```
 
