@@ -16,4 +16,4 @@ This blog is my personal playground to try new things and get some interesting i
 I like to play around with data and theories, as you will see while reading the blog. I highly belief that you have to get your hands dirty while working with data and that is exactly what this blog is about.
 
 All the source code of the entire blog is available on [Github](https://github.com/dominikpeter/dominikpeter.github.io).
-The blog is fully open source and you can do with it what ever you want.
+The blog is fully open source and you can do with it whatever you want.
