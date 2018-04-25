@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 feature-img: "assets/img/pexels/adventure-aerial-beautiful-351448.jpg"
-tags: [About]
+tags: [About, Github]
 ---
 
 

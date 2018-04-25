@@ -16,7 +16,7 @@ theme_settings:
   # Header and footer text
   header_text: > #two or three lines to describe your sit
        <h3>Exploring the World Through Data</h3>
-  header_text_feature_image: assets/img/mountain22-lower-cropped.jpg
+  header_text_feature_image: assets/img/aerial-shot-background-conifer-757170.jpg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
