@@ -2,13 +2,18 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "assets/img/pexels/circuit.jpeg"
-tags: [About, Test]
+feature-img: "assets/img/pexels/adventure-aerial-beautiful-351448.jpg"
+tags: [About]
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
 
-Head over to the [theme's documentation](https://github.io/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
+Welcome to my blog.
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
- 
+My name is Dominik. I am a Data Analyst by profession and by passion.
+I am located in beautiful Switzerland. We have so many publicly available datasets, it's a dream for any data enthusiast. If you are interested, check out [opendata](https://opendata.swiss/en/).
+
+This blog is my personal playground to try new things and get some interesting insights.
+I like to play around with data and theories, as you will while reading the blog. I highly belief that you have to get your hands dirty while working with data and that is exactly what this blog is about.
+
+All the source code of the entire blog is available on [Github](https://github.com/dominikpeter/dominikpeter.github.io).
+The blog is fully open source and you can do with it what ever you want. 
