@@ -21,6 +21,6 @@ I like to play around with data and theories, as you will see while reading the 
 
 All the source code of the entire blog is available on [Github](https://github.com/dominikpeter/dominikpeter.github.io).
 The blog is fully open source and you can do with it whatever you want.
-I will not be responsible for any damage it may cause. In return, I will not claim any money if you somehow achive to make a fortune out of it :-).
+I will not be responsible for any damage it may cause when reausing the code. In return, I will not claim any money if you somehow achive to make a fortune out of it :-).
 
 
