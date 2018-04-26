@@ -9,7 +9,7 @@ tags: [About, Github]
 
 ### About me
 
-My name is Dominik. I am a Data Analyst by passion and by profession. I live in beautiful Switzerland and in fact we have so many publicly available datasets, it's a dream for any data enthusiast. If you are interested, check out [OpenData](https://opendata.swiss/en/).
+My name is Dominik Peter. I am a Data Analyst by passion and by profession. I live in beautiful Switzerland and in fact we have so many publicly available datasets, it's a dream for any data enthusiast. If you are interested, check out [OpenData](https://opendata.swiss/en/).
 By the way, Switzerland is not just worth a look because of it's open data policy.
 
 ### About my blog
@@ -21,6 +21,5 @@ I like to play around with data and theories, as you will see while reading the 
 
 All the source code of the entire blog is available on [Github](https://github.com/dominikpeter/dominikpeter.github.io).
 The blog is fully open source and you can do with it whatever you want.
-I will not be responsible for any damage it may cause when reausing the code. In return, I will not claim any money if you somehow achive to make a fortune out of it :-).
-
+I will not be responsible for any damage it may cause when reusing some of the code. In return, I will not claim any money if you somehow achive to make a fortune out of it :-).
 
