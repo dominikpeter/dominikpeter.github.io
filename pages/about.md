@@ -24,7 +24,7 @@ The tools I will be using in this blog are *R*, *Python* and hopfully some *Scal
 
 All the source code of the entire blog is available on [Github](https://github.com/dominikpeter/dominikpeter.github.io).
 The blog is fully open source and you can do with it whatever you want.
-I will not be responsible for any damage it may cause when reusing some of the code. In return, I will not claim any money if you somehow achive to make a fortune out of it :-).
+I won't be responsible for any damage it may cause when reusing some of the code. In return, I won't ask you any money if you somehow achive to make a fortune out of it :-).
 
 
 ### Notes
