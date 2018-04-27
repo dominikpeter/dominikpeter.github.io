@@ -9,15 +9,15 @@ tags: [About, Github]
 
 ### About me
 
-Hi, my name is Dominik Peter -> 50 % tech nerd, 50 % outdoorsman, 10 %....robot.
-I am a Data Analyst by passion and by profession who lives in beautiful Switzerland. As a matter of fact, we have so many publicly available datasets, it's a dream for any data enthusiast*. By the way, Switzerland is not just worth a look because of it's open data policy. 
+Hi, my name is *Dominik Peter* <- 50 % tech nerd, 50 % outdoorsman.
+I am a Data Analyst by passion and by profession who lives in beautiful *Switzerland*. As a matter of fact, we have so many publicly available datasets, it's a dream for any data enthusiast. By the way, Switzerland is not just worth a look because of it's open data policy. 
 
 ### About my blog
 
 This blog is my personal playground to try new things and get some interesting insights.
 I like to play around with data and theories, as you will see while reading the blog. I highly belief that you have to get your hands dirty while working with data and that is exactly what this blog is about.
 
-The tools I will be using in this blog are R, Python and hopfully some Scala in the future -or whatever hot new technologie is right around the corner.
+The tools I will be using in this blog are *R*, *Python* and hopfully some *Scala* in the future -or whatever hot new technologie is right around the corner.
 
 ### Disclaimer
 
@@ -28,4 +28,4 @@ I will not be responsible for any damage it may cause when reusing some of the c
 
 
 
-* If you are interested, check out [OpenData](https://opendata.swiss/en/).
+If you are interested in open data, check out [OpenData](https://opendata.swiss/en/).
