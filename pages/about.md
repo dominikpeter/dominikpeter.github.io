@@ -29,4 +29,4 @@ I will not be responsible for any damage it may cause when reusing some of the c
 
 ### Notes
 
-If you are interested in open data, check out [OpenData](https://opendata.swiss/en/).
+If you are interested in the Swiss open data community, check out [OpenData](https://opendata.swiss/en/).
