@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "assets/img/pexels/adventure-aerial-beautiful-351448-lower.jpg"
+feature-img: "assets/img/pexels/codes-coding-computer-270623.jpg"
 tags: [About, Github]
 ---
 
