@@ -84,5 +84,6 @@ out <- map(df_splitted, function(data){
 ```
 
 <video controls loop>
-<source src="../assets/plots/plot-clt.webm" />
+<source src=({{ "/assets/plots/plot-clt.webm" | absolute_url }})/>
+
 </video>
