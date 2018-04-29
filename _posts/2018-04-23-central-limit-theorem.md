@@ -10,6 +10,7 @@ rm(list=ls())
 
 library(rsenal)
 library(tidyverse)
+library(magick)
 
 set.seed(2323)
 ```
@@ -63,6 +64,8 @@ Plotting
 Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
 ``` r
+img <- image_graph(width = 800, height = 600, res = 120)
+
 out <- map(df_splitted, function(data){
   p <- data %>%
     ggplot(aes(x=mean, y=..count../sum(..count..))) +
@@ -81,9 +84,15 @@ out <- map(df_splitted, function(data){
     xlab("Sample Mean")
   print(p)
 })
+dev.off()
 ```
 
-<video controls loop>
-<source src=({{ "/assets/plots/plot-clt.webm" | absolute_url }})/>
+    ## png 
+    ##   2
 
-</video>
+``` r
+animation <- image_animate(img, fps = 1, loop = 0)
+print(animation)
+```
+
+![]({{ "/assets/plots/plot-clt-1.gif" | absolute_url }})
