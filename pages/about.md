@@ -9,7 +9,7 @@ tags: [About, Github]
 
 ### About me
 
-Hi, my name is **Dominik Peter** <- 50 % tech nerd, 50 % outdoorsman.
+Hi, my name is **Dominik Peter**.
 
 I am a Data Analyst by passion and by profession who lives in beautiful **Switzerland**. As a matter of fact, we have so many publicly available datasets, it's a dream for any data enthusiast. By the way, Switzerland is not just worth a look because of it's open data policy.
 
