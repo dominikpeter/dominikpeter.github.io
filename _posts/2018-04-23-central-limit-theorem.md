@@ -101,7 +101,7 @@ print(animation)
 $(function(){
   var image = new Image();
   image.src='{{ "/assets/plots/plot-clt-1.gif" | absolute_url }}';
-   $('#gif-plot').click(function(){
+   $('img').click(function(){
      $(this).attr('src',image.src);
    }); 
  });
@@ -109,9 +109,7 @@ $(function(){
 </script>
 
 
-<div id="gif-plot">  
 
 ![]({{ "/assets/plots/plot-clt-1.gif" | absolute_url }})
 
-</div>  
 
