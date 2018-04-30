@@ -22,7 +22,7 @@ Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus comple
 
 ``` r
 get_sample_fun <- function(x, .f, size){
-  if (size > length(x)) 
+  if (size > length(x))
     stop("size must be smaller than length of x")
   sample_x <- sample(x, size = size, replace=FALSE)
   .f(sample_x)
@@ -50,8 +50,8 @@ sample_size <- sample_size[sample_size != 0]
 
 df <- map_df(sample_size, ~rep_get_sample_fun(x, mean, n_reps=., size=100)) %>%
   gather(value = mean) %>%
-  na.omit() %>% 
-  mutate(reps = key %>% as.integer()) %>% 
+  na.omit() %>%
+  mutate(reps = key %>% as.integer()) %>%
   dplyr::select(-key)
 
 df_splitted <- df %>%
@@ -64,7 +64,7 @@ Plotting
 Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
 ``` r
-img <- image_graph(width = 800, height = 600, res = 120)
+#img <- image_graph(width = 800, height = 600, res = 120)
 
 out <- map(df_splitted, function(data){
   p <- data %>%
@@ -84,15 +84,13 @@ out <- map(df_splitted, function(data){
     xlab("Sample Mean")
   print(p)
 })
-dev.off()
 ```
 
-    ## png 
-    ##   2
-
+<video controls loop>
+<source src={{ "/assets/plots/plot-clt.webm" | absolute_url }} />
+</video>
 ``` r
-animation <- image_animate(img, fps = 1, loop = 0)
-print(animation)
+#dev.off()
+#animation <- image_animate(img, fps = 1, loop = 0)
+#print(animation)
 ```
-
-![]({{ "/assets/plots/plot-clt-1.gif" | absolute_url }})
