@@ -96,17 +96,17 @@ print(animation)
 ```
 
 
-<script\>
+<script>
 
 $(function(){
   var image = new Image();
-  image.src="({{ "/assets/plots/plot-clt-1.gif" | absolute_url }})";
-   $('#img').click(function(){
+  image.src='{{ "/assets/plots/plot-clt-1.gif" | absolute_url }}';
+   $('img').click(function(){
      $(this).attr('src',image.src);
    }); 
  });
 
-</script\>
+</script>
 
 
   
