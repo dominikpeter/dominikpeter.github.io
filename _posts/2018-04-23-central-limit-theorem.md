@@ -1,9 +1,8 @@
-Analysis of Swiss Housing Landscape
+Central Limit Theorem
 -----------------------------------
 
 Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
-Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
 ``` r
 rm(list=ls())
@@ -18,7 +17,7 @@ set.seed(2323)
 Functions for later use
 -----------------------
 
-Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
+Lorem ipsum <mark>dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur.</mark> Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
 ``` r
 get_sample_fun <- function(x, .f, size){
@@ -72,6 +71,7 @@ $(function(){
    }); 
  });
 </script>
+
 ``` r
 img <- image_graph(width = 800, height = 600, res = 120)
 
@@ -103,6 +103,9 @@ dev.off()
 animation <- image_animate(img, fps = 1, loop = 1)
 print(animation)
 ```
+
+
+
 
 ![]({{ "/assets/plots/plot-clt-1.gif" | absolute_url }})
 
