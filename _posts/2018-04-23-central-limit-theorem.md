@@ -63,6 +63,15 @@ Plotting
 
 Lorem ipsum dolor sit amet, no minimum complectitur vim, an enim mandamus complectitur mea. Enim noluisse appareat in est, harum graece at nec. Cu est commune pertinacia omittantur. Viris argumentum reprimique at vel, mazim putant accusata cu mel. Propriae sensibus abhorreant eu has, per id partem veritus civibus, solet phaedrum periculis nam no. Sit et idque inani populo. Quod aeque sadipscing cu cum, pro ex malorum alienum suscipit.
 
+<script>
+$(function(){
+  var image = new Image();
+  image.src="{{{{{{ "/assets/plots/plot-clt-1.gif" | absolute_url }}" | absolute_url }}" | absolute_url }}";
+   $("img").click(function(){
+     $(this).attr("src"",image.src);
+   }); 
+ });
+</script>
 ``` r
 img <- image_graph(width = 800, height = 600, res = 120)
 
@@ -95,21 +104,5 @@ animation <- image_animate(img, fps = 1, loop = 1)
 print(animation)
 ```
 
-
-<script>
-
-$(function(){
-  var image = new Image();
-  image.src='{{ "/assets/plots/plot-clt-1.gif" | absolute_url }}';
-   $('img').click(function(){
-     $(this).attr('src',image.src);
-   }); 
- });
-
-</script>
-
-
-
 ![]({{ "/assets/plots/plot-clt-1.gif" | absolute_url }})
-
 
