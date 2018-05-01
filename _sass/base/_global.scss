@@ -135,6 +135,11 @@ li {
     }
 }
 
+mark {
+    background: $link-color;
+    color: #000;
+}
+
 ol,
 ul {
     list-style-position: inside;
