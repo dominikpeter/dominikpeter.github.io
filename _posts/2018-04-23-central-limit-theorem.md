@@ -97,15 +97,14 @@ print(animation)
 
 
 <script>
-
 $(function(){
+  $('img').css("cursor", "pointer");
   var image = new Image();
   image.src='{{ "/assets/plots/plot-clt-1.gif" | absolute_url }}';
    $('img').click(function(){
      $(this).attr('src',image.src);
-   }); 
+   });
  });
-
 </script>
 
 
