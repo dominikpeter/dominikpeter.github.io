@@ -9,7 +9,7 @@ tags: [About, Github]
 
 Hi, my name is <mark>Dominik Peter.</mark>
 
-I am a Data Analyst by passion and by profession who lives in beautiful <mark>Switzerland.</mark> As a matter of fact, we have so many publicly available datasets, it's a dream for any data enthusiast. By the way, Switzerland is not just worth a look because of it's open data policy.<i class="fa fa-circle fa-stack-2x"></i>
+I am a Data Analyst by passion and by profession who lives in beautiful <mark>Switzerland.</mark> As a matter of fact, we have so many publicly available datasets, it's a dream for any data enthusiast. By the way, Switzerland is not just worth a look because of it's open data policy.<i class="fa fa-smile-o"></i>
 
 This blog is my personal playground to try new things and get some interesting insights.
 I like to play around with data and theories, as you will see while reading the blog. I highly belief that you have to get your hands dirty while working with data and that is exactly what this blog is about.
