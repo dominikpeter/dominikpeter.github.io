@@ -10,7 +10,7 @@ theme_settings:
   # Meta
   title: <code>d0min1k</code>
   avatar: assets/icons/arrow.svg
-  favicon: assets/icons/arrow.ico
+  favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
   # Header and footer text
