@@ -1,11 +1,3 @@
----
-layout: post
-title: Beautiful Density Plot
-feature-img: "assets/img/plots/background_density.jpg"
-thumbnail: "assets/img/plots/background_density.jpg"
-tags: [density, ggplot2, R, Bootstrap]
----
-
 Bootstrapping Density Function and plotting with ggplot
 -------------------------------------------------------
 
@@ -16,7 +8,6 @@ rm(list = ls())
 
 library(tidyverse)
 library(rsenal) #set of useful functions
-library(viridis)
 library(broom)
 
 set.seed(2323)
@@ -41,7 +32,7 @@ Plotting the Distribution
 -------------------------
 
 ``` r
-faithful %>%
+faithful %>% 
   ggplot(aes(x = eruptions)) +
   geom_histogram(fill = "#3A506B", color="#e3e3e3") +
   theme_blog() +
@@ -83,15 +74,15 @@ max_ <- max(fit1$x)
 bs_samples <-  map(1:10000,
                    ~density_from_bs(eruptions,
                                     min_, max_)) %>%
-  map_df(~tidy(.)) %>%
-  group_by(x) %>%
+  map_df(~tidy(.)) %>% 
+  group_by(x) %>% 
   mutate(mean  = mean(y),
          y99   = quantile(y, 0.99),
          y01   = quantile(y, 0.01),
-         dist  = abs(y - mean)) %>%
+         dist  = abs(y - mean)) %>% 
   ungroup()
 
-bs_samples_samples <- bs_samples %>%
+bs_samples_samples <- bs_samples %>% 
   sample_n(size = 5000, replace = FALSE)
 ```
 
@@ -112,7 +103,7 @@ ggplot() +
   scale_y_continuous(breaks = seq(0, 0.5, by=0.2),
                      labels = seq(0, 0.5, by=0.2) %>% scales::percent()) +
   scale_x_continuous(breaks = seq(1, 6, by=1)) +
-  scale_color_viridis(guide=FALSE, option = "magma", begin = 0.1) +
+  scale_color_gradient(low = "#1C2541", high = "#6FFFE9", guide = FALSE) +
   ylab("Density\n") +
   xlab("\nEruptions")
 ```
