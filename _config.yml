@@ -16,7 +16,7 @@ theme_settings:
   # Header and footer text
   header_text: > #two or three lines to describe your sit
        <p>
-       <h3>Exploring the World Through Data</h3>
+       <h2>Exploring the World Through Data</h2>
        </p>
   header_text_feature_image: assets/img/pexels/gradient_light_blue.jpeg
   footer_text: >
