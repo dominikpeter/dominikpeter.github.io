@@ -18,7 +18,7 @@ theme_settings:
        <p>
        <h3>Exploring the World Through Data</h3>
        </p>
-  header_text_feature_image: assets/img/pexels/dark_to_light_with_plot2.png
+  header_text_feature_image: assets/img/pexels/dark_to_light_blue2.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
