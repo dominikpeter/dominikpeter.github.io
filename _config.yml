@@ -17,8 +17,7 @@ theme_settings:
   header_text: 
         > #two or three lines to describe your sit
         <p>
-        <h3>Exploring the World Through Data</h3>
-        <h4>Blog about Data Analysis</h4>
+        Exploring the World Through Data
         </p>
   header_text_feature_image: 
   footer_text: >
