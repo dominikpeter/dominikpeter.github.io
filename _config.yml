@@ -15,10 +15,11 @@ theme_settings:
 
   # Header and footer text
   header_text: 
-       # > #two or three lines to describe your sit
-       # <p>
-       # <h3>Exploring the World Through Data</h3>
-       # </p>
+        > #two or three lines to describe your sit
+        <p>
+        <h3>Exploring the World Through Data</h3>
+        <h4>Blog about Data Analysis</h4>
+        </p>
   header_text_feature_image: 
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
