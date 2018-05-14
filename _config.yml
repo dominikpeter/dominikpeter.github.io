@@ -18,7 +18,7 @@ theme_settings:
        <p>
        <h3>Exploring the World Through Data</h3>
        </p>
-  header_text_feature_image: assets/img/pexels/adventure-aerial-beautiful-351448-lower.jpg
+  header_text_feature_image: 
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
