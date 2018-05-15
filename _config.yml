@@ -17,7 +17,9 @@ theme_settings:
   header_text:
         > #two or three lines to describe your sit
         <p>
+        <h4>
         Exploring the World Through Data
+        </h4>
         </p>
   header_text_feature_image: assets/img/pexels/dark_to_light_blue2.jpeg
   footer_text: >
