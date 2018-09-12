@@ -7,15 +7,4 @@ tags: [About, Github]
 ---
 
 
-Hi, my name is <mark>Dominik Peter.</mark>
-
-I am a Data Enthusiast who lives in beautiful <mark>Switzerland.</mark>
-
-This blog is <mark>my personal playground to try new things</mark> and get some interesting insights.
-I like to play around with data and theories, as you will see while reading my blog. I highly belief that you have to get your hands dirty while working with data and that is exactly what this blog is about.
-
-The tools I will be using in this blog are <mark>R, Python, Javascript, eventually some Scala</mark>, or whatever hot new technologie is right around the corner.
-
-All the source code of the entire blog is available on [Github](https://github.com/dominikpeter/dominikpeter.github.io).
-The blog is fully open source and you can do with it whatever you want.
-I won't be responsible for any damage it may cause when reusing some of the code. In return, I won't ask you any money if you somehow achive to make a fortune out of it.
+Welcome to my Playground...
